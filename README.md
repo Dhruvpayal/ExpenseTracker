@@ -1,47 +1,26 @@
-# Expense Tracker
+# College Student Expense Manager
 
-Expense Tracker is a Java application that allows you to track and manage your expenses. It's built with Java Swing for the GUI, FlatLaf for a modern look and feel, and SQLite DB for data persistence.
+A simple yet powerful desktop expense tracker made in Java for students.
 
-https://github.com/Surya-KN/ExpenseTracker/assets/95220715/06e2c3ca-6fd5-44e6-b847-c6363632b9a5
+## Problem It Solves
+As a student in Bhopal, tracking daily expenses like mess food, local market purchases, travel, and art supplies is challenging. This app helps avoid overspending.
+
 ## Features
+- Add new expenses with date, amount, category, and description
+- View all expenses in a table
+- Edit / Delete any expense
+- Student-friendly categories
+- Monthly spending summary
+- Sort by category or date
+- Data saved permanently using SQLite
 
-- Add new expenses
-
-
-
-
-- Sort expenses based on categories
-- Provides a summary of total expenses
-
-## Prerequisites
-
-- Java 17 or later (Make sure both `JAVA_HOME` and `Path` variables are set. )
+## Tech Stack
+- Java 17+
+- Swing + FlatLaf (modern GUI)
+- SQLite Database
 - Maven
 
-## Getting Started
-
-Follow these steps to get the project up and running on your local machine:
-
-1. Clone the repository:
-```
-git clone https://github.com/Surya-KN/ExpenseTracker.git
-```
-2. Navigate to the project directory:
-```
-cd ExpenseTracker
-```
-3. Build the project:
-- for windows
-  ```
-  .\mvnw.cmd clean package
-  ```
-- for linux
-  ```
-   chmod +x ./mvnw
-  ./mvnw clean package
-  ```
-4. Run the application:
-```
-java -jar target/ExpenseTracker-1.0-jar-with-dependencies.jar
-```
-
+## How to Run
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/ExpenseTracker.git
